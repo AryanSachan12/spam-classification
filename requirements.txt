@@ -3,6 +3,5 @@ numpy
 pandas
 nltk
 wordcloud
-pickle
 streamlit
 dill
