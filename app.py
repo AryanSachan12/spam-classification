@@ -8,7 +8,7 @@ from nltk.corpus import stopwords
 import string
 
 nltk.download('punkt')
-nltk.download('punkt-tab')
+nltk.download('punkt_tab')
 
 ps = PorterStemmer()
 
