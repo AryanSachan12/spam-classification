@@ -1,0 +1,9 @@
+ipykernel
+numpy
+pandas
+nltk
+wordcloud
+collections
+pickle
+streamlit
+dill
