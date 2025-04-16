@@ -12,7 +12,31 @@ ps = PorterStemmer()
 
 tfidf = pickle.load(open("vectorizer.pkl", "rb"))
 model = pickle.load(open("model.pkl", "rb"))
-transform_text = dill.load(open("transform_text.pkl", "rb"))
+
+
+def transform_text(text):
+    text = text.lower()
+    text = nltk.word_tokenize(text)
+    
+    y = []
+    for i in text:
+        if i.isalnum():
+            y.append(i)   
+            
+    text = y
+    y = []
+    
+    for i in text:
+        if i not in stopwords.words("english"):
+            y.append(i)
+       
+    text = y
+    y = [] 
+        
+    for i in text:
+        y.append(ps.stem(i))
+    
+    return " ".join(y)
 
 st.title("Email/SMS Spam Classifier!")
 
