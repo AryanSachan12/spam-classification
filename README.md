@@ -6,7 +6,7 @@ This is a web-based spam classification system built with **Streamlit**, **Pytho
 
 You can try out the live demo of the Spam Classification System here:
 
-[Spam Classification System - Live Demo](https://aryansachan12-spam-classification-app-c7wgvs.streamlit.app/)
+[Spam Classification System - Live Demo](https://aryansachan12-spam-classification-app-c7wgvs.streamlit.app/](https://aryansachan12-spam-classification-app-9blpcn.streamlit.app/)
 
 ## Features
 
